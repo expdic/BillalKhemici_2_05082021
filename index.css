@@ -1,0 +1,179 @@
+html, body{
+    font-family: Raleway;
+}
+.flexCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.flexAround {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.flexBetween {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sizeliens{
+    width: 45%;
+}
+
+.colorlien1et3{
+    color: blue;
+}
+
+.colorlien2{
+    color: black;
+}  
+
+.deconon{
+    text-decoration: none;
+}
+
+.borderno{
+    border: none;
+}
+
+.sizelien{
+    width: 140px;
+    height: 99px;
+}
+
+.bordure{
+    border-top: 1px solid blue;
+}
+
+.bordure2et3{
+    border-top: 1px solid transparent;
+}
+
+.marglogo{
+    margin-bottom: 7pxl;
+}
+
+.sieznav{
+    height: 100px;
+}   
+
+.textgras{
+    font-weight: bold;
+
+} 
+
+.bordersearch{
+    width: 400px;
+    border-radius: 10px;
+    border: 0.5px solid #f2f2f2;
+
+}
+
+.iconsize{
+    height: 50px;
+    width: 50px;
+    border-radius: 10px 0 0 10px;
+
+}
+
+.search{
+    height: 50px;
+    width: 230 px;
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+}
+
+.backgris{
+    background-color: #f2f2f2;
+
+}
+.backbleu{
+    background-color: #0065fc;
+
+}
+.backbleuc{
+    background-color: #deebff;
+
+}
+.colorgris{
+    color: #f2f2f2;
+
+}
+.colorbleu{
+    color: #0065fc;
+
+}
+.colorbleuc{
+    color: #deebff;
+
+}
+
+.paddingsearch{
+    padding-left: 20px;
+
+}
+
+.buttonsearch{
+    height: 50px;
+    width: 120px;
+    color: white;
+    cursor: pointer;
+    border-radius: 0 10px 10px 0;
+
+}
+
+.filtre{
+    display: flex;
+    align-items: center;
+
+}
+
+.margefiltre{
+    margin-top: 50px;
+    margin-bottom: 40px;
+
+}
+
+.margefiltretitre{
+    margin-right: 20px;
+
+}
+
+.filtretxticn{
+    border: 2px solid #f2f2f2;
+    height: 50px;
+    border-radius: 30px;
+    margin-right: 20px;
+}
+
+.filtreicn{
+    margin-left: -2px;
+    height: 52px;
+    border-radius: 25px;
+    width: 52px;
+    color: #0065fc;
+    background-color: #deebff;
+}
+
+.filtretxt{
+    height: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 0 25px 25px 0;
+
+}  
+
+.filtretxticn:hover > .filtretxt{
+    color: #0065fc;
+}
+ 
+.filtretxticn:hover > .filtreicn{
+    color: white;
+    background-color: #0065fc;
+}
+ 
