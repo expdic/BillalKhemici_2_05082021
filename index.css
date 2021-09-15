@@ -5,6 +5,9 @@ body {
     margin: auto;
 }
 
+/* FlexBox */
+
+
 .flexCenter {
     display: flex;
     justify-content: center;
@@ -44,6 +47,12 @@ body {
     justify-content: space-between;
 }
 
+/* Besoins du site */
+
+.ecritlarge {
+    font-size: large;
+
+}
 
 .backgris {
     background-color: #f2f2f2;
@@ -75,15 +84,57 @@ body {
 
 }
 
-.sizeliens {
-    width: 45%;
+
+.textgras {
+    font-weight: bold;
+
 }
-
-
 
 .colorblack {
     color: black;
 }
+
+.modelien {
+    color: black;
+
+}
+
+.modelien:hover {
+    color: gray;
+    cursor: pointer;
+
+}
+
+
+
+
+
+
+/* logo */
+
+#taillelogo {
+    height: 50px;
+    width: 120px;
+}
+
+#taillelogo img {
+    height: 100%;
+    width: 100%;
+}
+
+#marglogo {
+    margin-bottom: 7px;
+}
+
+
+
+/* Barre menu */
+
+
+#sizeliens {
+    width: 100%;
+}
+
 
 .deconon {
     text-decoration: none;
@@ -93,9 +144,19 @@ body {
     border: none;
 }
 
+.sizelien12 {
+    margin-left: 70%;
+}
+
+.iconposition {
+
+    padding-bottom: 50px;
+
+}
+
 .sizelien {
     width: 140px;
-    height: 99px;
+    height: 98px;
 }
 
 .bordure {
@@ -119,20 +180,14 @@ body {
 
 }
 
-.marglogo {
-    margin-bottom: 7pxl;
-}
 
-.sieznav {
+#sizenav {
     height: 100%;
     padding-left: 2%;
     padding-right: 2%;
 }
 
-.textgras {
-    font-weight: bold;
-
-}
+/* Recherche */
 
 .bordersearch {
     width: 400px;
@@ -157,7 +212,7 @@ body {
 
 .search {
     height: 50px;
-    width: 230 px;
+    width: 230px;
     font-size: 18px;
     color: black;
     font-weight: bold;
@@ -184,6 +239,13 @@ body {
     background-color: darkblue;
 }
 
+.desktopnone {
+    display: none;
+
+}
+
+
+/* Filtre */
 
 .filtre {
     display: flex;
@@ -237,6 +299,10 @@ body {
     cursor: pointer;
 }
 
+
+/* Info */
+
+
 .info {
     display: flex;
     align-items: center;
@@ -248,16 +314,6 @@ body {
     border: 2px solid #f2f2f2;
     border-radius: 25px;
     margin-right: 5px;
-}
-
-#taillelogo {
-    height: 50px;
-    width: 120px;
-}
-
-#taillelogo img {
-    height: 100%;
-    width: 100%;
 }
 
 
@@ -284,6 +340,14 @@ body {
     background-color: white;
     padding: 1%;
     border-radius: 20px;
+    box-shadow: 5px 5px 5px 1px #f2f2f2;
+
+}
+
+.cubeheber:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    color: #0065fc;
 
 }
 
@@ -360,6 +424,11 @@ body {
 
 }
 
+.margintitreheber {
+    margin-top: 30px;
+
+}
+
 /* populaire */
 
 .sizepopu {
@@ -381,7 +450,7 @@ body {
 }
 
 .bloctitrepop {
-    margin-bottom: 45px;
+    margin-bottom: 80px;
 }
 
 
@@ -389,11 +458,20 @@ body {
 
 .cubepop {
     background-color: white;
-    height: auto;
+    height: 200px;
     padding: 1% 0 1% 1%;
     border-radius: 20px;
+    margin-top: -50px;
 
 }
+
+.cubepop:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    color: #0065fc;
+
+}
+
 
 .cubedetailpop {
     width: 60%;
@@ -406,7 +484,7 @@ body {
     background-size: cover;
     background-position: center;
     width: 35%;
-    height: 160px;
+    height: 200px;
     border-radius: 15px 0 0 15px;
 }
 
@@ -415,7 +493,7 @@ body {
     background-size: cover;
     background-position: center;
     width: 35%;
-    height: 160px;
+    height: 200px;
     border-radius: 15px 0 0 15px;
 }
 
@@ -424,8 +502,18 @@ body {
     background-size: cover;
     background-position: center;
     width: 35%;
-    height: 160px;
+    height: 200px;
     border-radius: 15px 0 0 15px;
+}
+
+.margintitrepopu {
+    margin-top: 35px;
+
+}
+
+.paddingpop {
+    padding-bottom: 20px;
+
 }
 
 
@@ -529,19 +617,8 @@ body {
 }
 
 
-.cubeheber:hover {
-    cursor: pointer;
-    transform: scale(1.05);
-    color: #0065fc;
 
-}
 
-.cubepop:hover {
-    cursor: pointer;
-    transform: scale(1.05);
-    color: #0065fc;
-
-}
 
 .cubeactivite:hover {
     cursor: pointer;
@@ -560,12 +637,13 @@ body {
 
 
 
+/* footer */
 
 
 
 .footer {
     height: 300px;
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 .blocfooter {
@@ -574,21 +652,327 @@ body {
 
 .margeblocfoot1 {
     margin-left: 5%;
+    margin-top: -50px;
 
 }
 
 .margeblocfoot3 {
     margin-right: 15%;
+    margin-top: -60px;
 
 }
 
-.modelien {
-    color: black;
+.margeblocfoot2 {
+    margin-top: -80px;
 
 }
 
-.modelien:hover {
-    color: gray;
-    cursor: pointer;
+
+
+
+
+
+
+
+
+
+/* responsive grande tablette */
+
+@media screen and (max-width: 1299px) {
+    .sizelien12 {
+        margin-left: 35%;
+    }
+
+    .cubedetailheber {
+        min-height: 150px;
+    }
+
+    .sizeheber {
+        min-height: auto;
+        padding: 20px;
+    }
+
+    .sizepopu {
+        min-height: auto;
+        padding: 20px;
+    }
+
+
+
+
+
+
+}
+
+/* responsive  tablette */
+
+
+@media screen and (max-width: 990px) {
+    .mobileFiltreWrap {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .filtretxticn {
+        margin-bottom: 20px;
+    }
+
+    #hebergement {
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+
+    .blocpop {
+        flex: none;
+        width: 90%;
+        margin-left: 0;
+        padding: 5%;
+    }
+
+    .blocheber {
+        flex: none;
+        width: 90%;
+        margin-right: 0;
+        margin-top: 50px;
+        padding: 5%;
+    }
+}
+
+
+/* responsive tablette-mobile */
+
+
+@media screen and (max-width: 770px) {
+    #sizeliens {
+        width: 90%;
+    }
+
+    .sizelien12 {
+        margin-left: 20%;
+    }
+
+    .blocheber {
+        height: auto;
+    }
+
+    .bloc1 {
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+
+    .bloc2 {
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+
+    .cubeheber {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+
+
+    .cubedetailheber {
+        min-height: auto;
+    }
+
+    .blocactivite {
+        flex-direction: column;
+        height: auto;
+
+
+    }
+
+    .cubeactivite {
+        width: 100%;
+        margin-bottom: 50px;
+
+
+    }
+
+    .blocactivite2356 {
+        width: 100%;
+        height: auto;
+
+
+    }
+
+    .cubeactiviteimg2356 {
+        margin-bottom: 50px;
+
+
+    }
+
+    .imgactivite1,
+    .imgactivite2,
+    .imgactivite3,
+    .imgactivite4,
+    .imgactivite5,
+    .imgactivite6 {
+        height: 200px;
+    }
+
+    .footer {
+        flex-direction: column;
+        align-items: flex-start;
+        height: auto;
+        padding-left: 20px;
+    }
+
+
+
+    .margeblocfoot1 {
+        margin-left: 0;
+    }
+
+    .margeblocfoot1 {
+        margin-top: 20px;
+
+    }
+
+    .margeblocfoot3 {
+        margin-top: 0px;
+
+    }
+
+    .margeblocfoot2 {
+        margin-top: 0px;
+
+    }
+
+
+
+}
+
+/* responsive full-mobile */
+
+
+
+@media screen and (max-width: 600px) {
+
+
+    .sizelien12 {
+        order: 1;
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .sizelienmobile {
+        width: 50%;
+        border-top: 0;
+        border-bottom: 5px solid #f2f2f2;
+    }
+
+    .sizelien {
+        height: 70px;
+    }
+
+    #sizeliens {
+        width: 100%;
+        flex-direction: row;
+        flex-wrap: wrap;
+        font-size: 20px;
+
+    }
+
+    .sizelienmobile:hover {
+        border-top: 0;
+        border-bottom: 5px solid #0065fc;
+    }
+
+    .mobiletitreapara {
+        font-size: x-large;
+
+    }
+
+    .mobilelarge {
+        font-size: large;
+
+    }
+
+
+    .bordersearch {
+        width: auto;
+        border: none;
+        border-bottom: 1px solid #f2f2f2;
+        border-top: 1px solid #f2f2f2;
+    }
+
+    .search {
+        width: 300px;
+
+
+    }
+
+    .buttonsearch {
+        width: 50px;
+        border-radius: 15px;
+
+    }
+
+    .desktopnone {
+        display: block;
+
+    }
+
+    .mobilenone {
+        display: none;
+
+    }
+
+    .margefiltre {
+        margin-top: 20px;
+        padding-left: 5%;
+        margin-bottom: -20px;
+    }
+
+    .mobeco {
+        margin-right: 5px;
+    }
+
+    .mobfam {
+        margin-right: 0;
+    }
+
+    .filtretxt {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .info {
+        padding: 5%;
+    }
+
+    .blocpop {
+        border-radius: 0;
+    }
+
+
+    .blocheber {
+        background-color: white;
+    }
+
+    .mobiletitreapara {
+        padding-left: 5%;
+    }
+
+    .blocactivite {
+        padding: 5%;
+        width: 90%;
+    }
+
+    .footer {
+        margin-top: 0px;
+        padding-bottom: 50px;
+    }
+
+
+
+    html,
+    body {
+        margin: 0;
+        padding: 0;
+
+    }
 
 }

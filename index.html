@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang=>
 
 <head>
     <meta charset="utf-8" />
@@ -12,69 +12,90 @@
 
 </head>
 
-
 <body id="body">
-    <nav class="sieznav">
+    <nav id="sizenav">
+        <!-- LOGO -->
 
-        <div class="flexBetween">
-            <div id="taillelogo">
-                <img class="marglogo" src="images/logo.png" alt="logo" />
+        <div id="sizeliens" class="flexBetween">
+            <div id="taillelogo" class="mobiletitreapara">
+                <img id="marglogo" src="images/logo.png" alt="logo" />
             </div>
-            <div class="sizeliens flexAround">
-                <div class="sizelien flexCenter bordure"><a class="colorblack deconon" href="#heberge">Hébergement</a>
+
+            <!-- MENU -->
+
+
+            <div class="sizelien12 flexCenter">
+                <div class="sizelien sizelienmobile flexCenter bordure"><a class="colorblack deconon"
+                        href="#hebergement">Hébergement</a>
                 </div>
-                <div class="sizelien flexCenter bordure"><a class="colorblack deconon" href="#activite">Activités</a>
+                <div class="sizelien sizelienmobile flexCenter bordure"><a class="colorblack deconon"
+                        href="#activite">Activités</a>
                 </div>
-                <div class="sizelien flexCenter bordure"><a class="colorbleu textgras deconon"
-                        href="#inscrip">S'inscrire</a></div>
             </div>
+            <div class="sizelien flexCenter "><a class="colorbleu textgras deconon" href="a">S'inscrire</a></div>
+
         </div>
         <header>
             <section>
-                <div>
-                    <h1>Trouvez votre hebergement pour des vacances de reve</h1>
-                    <p>En plein centre ville ou en plein nature</p>
+                <!-- FORMULAIRE -->
+
+                <div class="mobiletitreapara">
+                    <h1> Trouvez votre hebergement pour des vacances de rêve </h1>
+                    <p>En plein centre ville ou en pleine nature</p>
                 </div>
 
-                <form action="" class="flexCenter bordersearch">
+                <form action="a" class="flexCenter bordersearch">
                     <div class=" backgris iconsize flexCenter"><i class="fas fa-map-marker-alt"></i></div>
                     <input class="search flexCenter borderno paddingsearch" type="search"
                         placeholder="Marseille, France">
-                    <div class="backbleu flexCenter buttonsearch">Rechercher</div>
+                    <div class="backbleu flexCenter buttonsearch">
+                        <span class="mobilenone">Rechercher</span>
+                        <span class="desktopnone"><i class="fas fa-search"></i></span>
+
+                    </div>
                 </form>
 
-                <div class="filtre margefiltre">
+                <!-- FILTRES -->
+
+
+                <div class="mobileFiltreWrap filtre margefiltre">
 
                     <div class="margefiltretitre">
                         <h3>Filtres</h3>
                     </div>
 
-                    <div class="filtretxticn flexBetween">
-                        <i class="fas fa-money-bill-wave fa-lg filtreicn flexCenter"></i>
-                        <div class="filtretxt flexCenter">Economique</div>
+                    <div class="flexAround">
+
+                        <div class="mobeco filtretxticn flexBetween">
+                            <i class="fas fa-money-bill-wave fa-lg filtreicn flexCenter"></i>
+                            <div class="filtretxt flexCenter">Économique</div>
+                        </div>
+
+                        <div class="mobfam filtretxticn flexBetween">
+                            <i class="fas fa-child filtreicn fa-lg flexCenter"></i>
+                            <div class="filtretxt flexCenter">Familiale</div>
+
+                        </div>
                     </div>
 
-                    <div class="filtretxticn flexBetween">
-                        <i class="fas fa-child filtreicn fa-lg flexCenter"></i>
-                        <div class="filtretxt flexCenter">Familiale</div>
+                    <div class="mobileFiltreWrap flexAround">
 
-                    </div>
+                        <div class="filtretxticn flexBetween">
+                            <i class="fas fa-heart filtreicn fa-lg flexCenter"></i>
+                            <div class="filtretxt flexCenter">Romantique</div>
 
-                    <div class="filtretxticn flexBetween">
-                        <i class="fas fa-heart filtreicn fa-lg flexCenter"></i>
-                        <div class="filtretxt flexCenter">Romantique</div>
+                        </div>
 
-                    </div>
+                        <div class="filtretxticn flexBetween">
+                            <i class="fas fa-dog filtreicn fa-lg flexCenter"></i>
+                            <div class="filtretxt flexCenter">Animaux autorisés</div>
 
-                    <div class="filtretxticn flexBetween">
-                        <i class="fas fa-dog filtreicn fa-lg flexCenter"></i>
-                        <div class="filtretxt flexCenter">Animaux autorisés</div>
-
+                        </div>
                     </div>
                 </div>
                 <div class="info">
                     <div class="iconinfo flexCenter"><i class="fas fa-info fa-xs colorbleu"></i></div>
-                    <p>Plus de 500 logements sont disponibles dans cette ville</p>
+                    <p class="mobilelarge">Plus de 500 logements sont disponibles dans cette ville</p>
 
 
                 </div>
@@ -83,15 +104,18 @@
 
         </header>
 
-        <section id="heberge" class="flexAround">
+        <!-- HEBERGEMENT -->
+
+
+        <section id="hebergement" class="flexAround">
             <div class="flexColumnAround sizeheber backgris blocheber">
-                <h2>Hébergement à Marseille</h2>
+                <h2 class="margintitreheber">Hébergements à Marseille</h2>
                 <div class="bloc1 flexBetween">
                     <div class="cubeheber">
                         <div class="imgheber1"></div>
                         <div class="cubedetailheber ">
-                            <h3>Auberge de la Cannebiere</h3>
-                            <p>Nuit à partir de 25e</p>
+                            <h3>Auberge la Cannebière</h3>
+                            <p>Nuit à partir de 25€</p>
                             <div>
                                 <i class="fas fa-star colorbleu"></i>
                                 <i class="fas fa-star colorbleu"></i>
@@ -104,8 +128,8 @@
                     <div class="cubeheber">
                         <div class="imgheber2"></div>
                         <div class="cubedetailheber ">
-                            <h3>Hotel du port</h3>
-                            <p>Nuit à partir de 52e</p>
+                            <h3>Hôtel du port</h3>
+                            <p>Nuit à partir de 52€</p>
                             <div>
                                 <i class="fas fa-star colorbleu"></i>
                                 <i class="fas fa-star colorbleu"></i>
@@ -118,8 +142,8 @@
                     <div class="cubeheber">
                         <div class="imgheber3"></div>
                         <div class="cubedetailheber ">
-                            <h3>Hotel les mouettes</h3>
-                            <p>Nuit à partir de 76e</p>
+                            <h3>Hôtel Les mouettes</h3>
+                            <p>Nuit à partir de 76€</p>
                             <div>
                                 <i class="fas fa-star colorbleu"></i>
                                 <i class="fas fa-star colorbleu"></i>
@@ -134,8 +158,8 @@
                     <div class="cubeheber">
                         <div class="imgheber4"></div>
                         <div class="cubedetailheber ">
-                            <h3>Hotel de la mer</h3>
-                            <p>Nuit à partir de 46e</p>
+                            <h3>Hôtel de la mer</h3>
+                            <p>Nuit à partir de 46€</p>
                             <div>
                                 <i class="fas fa-star colorbleu"></i>
                                 <i class="fas fa-star colorbleu"></i>
@@ -149,7 +173,7 @@
                         <div class="imgheber5"></div>
                         <div class="cubedetailheber ">
                             <h3>Auberge Le Panier</h3>
-                            <p>Nuit à partir de 23e</p>
+                            <p>Nuit à partir de 23€</p>
                             <div>
                                 <i class="fas fa-star colorbleu"></i>
                                 <i class="fas fa-star colorbleu"></i>
@@ -162,8 +186,8 @@
                     <div class="cubeheber">
                         <div class="imgheber6"></div>
                         <div class="cubedetailheber ">
-                            <h3>Auberge Chez Amina</h3>
-                            <p>Nuit à partir de 96e</p>
+                            <h3>Hôtel Chez Amina</h3>
+                            <p>Nuit à partir de 96€</p>
                             <div>
                                 <i class="fas fa-star colorbleu"></i>
                                 <i class="fas fa-star colorbleu"></i>
@@ -177,17 +201,24 @@
                 <div></div>
                 <h3 id="aff" class="textgras">Afficher plus </h3>
             </div>
+
+            <!-- POPULAIRE -->
+
+
+
             <div class="sizepopu blocpop backgris">
                 <div class="flexBetween">
-                    <h2 class="textgras bloctitrepop">Les plus populaires</h2>
-                    <div><i class="fas fa-chart-line fa-2x"></i></div>
+                    <h2 class="tablettepopu margintitrepopu textgras bloctitrepop">Les plus populaires</h2>
+                    <div><i class="iconposition fas fa-chart-line fa-2x"></i></div>
                 </div>
                 <div class="flexColumnAround">
                     <div class="blocpop12 flexCenter cubepop">
                         <div class="imgpopu1"></div>
                         <div class="cubedetailpop">
-                            <h3>Hotel le soleil du matin</h3>
-                            <p>Nuit à partir de 128e</p>
+                            <div class="ecritlarge paddingpop">
+                                <h3>Hôtel Le soleil du <br>matin</h3>
+                                <p>Nuit à partir de 128€</p>
+                            </div>
                             <div>
                                 <i class="fas fa-star colorbleu"></i>
                                 <i class="fas fa-star colorbleu"></i>
@@ -200,8 +231,10 @@
                     <div class="blocpop12 flexCenter cubepop">
                         <div class="imgpopu2"></div>
                         <div class="cubedetailpop">
-                            <h3>Au coeur de l'eau Chambres d'hotes</h3>
-                            <p>Nuit à partir de 71e</p>
+                            <div class="ecritlarge paddingpop">
+                                <h3>Au coeur de l'eau <br> Chambres d'hôtes</h3>
+                                <p>Nuit à partir de 71€</p>
+                            </div>
                             <div>
                                 <i class="fas fa-star colorbleu"></i>
                                 <i class="fas fa-star colorbleu"></i>
@@ -214,8 +247,10 @@
                     <div class="flexCenter cubepop">
                         <div class="imgpopu3"></div>
                         <div class="cubedetailpop">
-                            <h3>Hotel tout bleu et blanc</h3>
-                            <p>Nuit à partir de 68e</p>
+                            <div class="ecritlarge paddingpop">
+                                <h3>Hôtel Tout bleu et <br> Blanc</h3>
+                                <p>Nuit à partir de 68€</p>
+                            </div>
                             <div>
                                 <i class="fas fa-star colorbleu"></i>
                                 <i class="fas fa-star colorbleu"></i>
@@ -228,8 +263,11 @@
                 </div>
             </div>
         </section>
+
+        <!-- ACTIVITES -->
+
         <section id="activite" class="activite">
-            <h2>Activités à Marseille</h2>
+            <h2 class="mobiletitreapara">Activités à Marseille</h2>
             <div class="blocactivite flexBetween">
                 <div class="cubeactivite flexColumnCenter">
                     <div class="imgactivite1"></div>
@@ -241,13 +279,13 @@
                     <div class="cubeactiviteimg2356 flexColumnCenter">
                         <div class="imgactivite2"></div>
                         <div class="titreactivite titrehautactivite">
-                            <h3>Fort do Pomeguos</h3>
+                            <h3>Fort do Pomèguos</h3>
                         </div>
                     </div>
                     <div class="cubeactiviteimg2356 flexColumnCenter">
                         <div class="imgactivite3"></div>
                         <div class="titreactivite titrehautactivite">
-                            <h3>Iles du Frioul</h3>
+                            <h3>Îles du Frioul</h3>
                         </div>
                     </div>
                 </div>
@@ -274,15 +312,18 @@
             </div>
         </section>
     </nav>
+
+    <!-- FOOTER -->
+
     <footer>
         <div class="footer backgris flexBetween">
-            <div class="margeblocfoot1 tailleblocfoot">
+            <div class="mobilelarge margeblocfoot1 tailleblocfoot">
                 <h3>A propos</h3>
                 <p class="modelien">Fonctionnement du site</p>
                 <p class="modelien">Conditions générales de vente</p>
                 <p class="modelien">Données et confidentialité</p>
             </div>
-            <div class="tailleblocfoot">
+            <div class="margeblocfoot2 tailleblocfoot">
                 <h3>Nos hebergements</h3>
                 <p class="modelien">Charte qualité</p>
                 <p class="modelien">Soumettre votre hotel</p>
