@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Reservia</title>
     <script src="https://kit.fontawesome.com/ca36eba50f.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="index.css" />
@@ -13,10 +14,10 @@
 </head>
 
 <body id="body">
-    <nav id="sizenav">
+    <div id="sizenav">
         <!-- LOGO -->
 
-        <div id="sizeliens" class="flexBetween">
+        <header id="sizeliens" class="flexBetween">
             <div id="taillelogo" class="mobiletitreapara">
                 <img id="marglogo" src="images/logo.png" alt="logo" />
             </div>
@@ -24,85 +25,85 @@
             <!-- MENU -->
 
 
-            <div class="sizelien12 flexCenter">
+            <nav class="sizelien12 flexCenter">
                 <div class="sizelien sizelienmobile flexCenter bordure"><a class="colorblack deconon"
                         href="#hebergement">Hébergement</a>
                 </div>
                 <div class="sizelien sizelienmobile flexCenter bordure"><a class="colorblack deconon"
                         href="#activite">Activités</a>
                 </div>
-            </div>
-            <div class="sizelien flexCenter "><a class="colorbleu textgras deconon" href="a">S'inscrire</a></div>
-
-        </div>
-        <header>
-            <section>
-                <!-- FORMULAIRE -->
-
-                <div class="mobiletitreapara">
-                    <h1> Trouvez votre hebergement pour des vacances de rêve </h1>
-                    <p>En plein centre ville ou en pleine nature</p>
-                </div>
-
-                <form action="a" class="flexCenter bordersearch">
-                    <div class=" backgris iconsize flexCenter"><i class="fas fa-map-marker-alt"></i></div>
-                    <input class="search flexCenter borderno paddingsearch" type="search"
-                        placeholder="Marseille, France">
-                    <div class="backbleu flexCenter buttonsearch">
-                        <span class="mobilenone">Rechercher</span>
-                        <span class="desktopnone"><i class="fas fa-search"></i></span>
-
-                    </div>
-                </form>
-
-                <!-- FILTRES -->
-
-
-                <div class="mobileFiltreWrap filtre margefiltre">
-
-                    <div class="margefiltretitre">
-                        <h3>Filtres</h3>
-                    </div>
-
-                    <div class="flexAround">
-
-                        <div class="mobeco filtretxticn flexBetween">
-                            <i class="fas fa-money-bill-wave fa-lg filtreicn flexCenter"></i>
-                            <div class="filtretxt flexCenter">Économique</div>
-                        </div>
-
-                        <div class="mobfam filtretxticn flexBetween">
-                            <i class="fas fa-child filtreicn fa-lg flexCenter"></i>
-                            <div class="filtretxt flexCenter">Familiale</div>
-
-                        </div>
-                    </div>
-
-                    <div class="mobileFiltreWrap flexAround">
-
-                        <div class="filtretxticn flexBetween">
-                            <i class="fas fa-heart filtreicn fa-lg flexCenter"></i>
-                            <div class="filtretxt flexCenter">Romantique</div>
-
-                        </div>
-
-                        <div class="filtretxticn flexBetween">
-                            <i class="fas fa-dog filtreicn fa-lg flexCenter"></i>
-                            <div class="filtretxt flexCenter">Animaux autorisés</div>
-
-                        </div>
-                    </div>
-                </div>
-                <div class="info">
-                    <div class="iconinfo flexCenter"><i class="fas fa-info fa-xs colorbleu"></i></div>
-                    <p class="mobilelarge">Plus de 500 logements sont disponibles dans cette ville</p>
-
-
-                </div>
-
-            </section>
+            </nav>
+            <div class="sizelien flexCenter "><a class="colorbleu textgras deconon" href="#">S'inscrire</a></div>
 
         </header>
+
+
+        <section>
+            <!-- FORMULAIRE -->
+
+            <div class="mobiletitreapara">
+                <h1> Trouvez votre hebergement pour des vacances de rêve </h1>
+                <p>En plein centre ville ou en pleine nature</p>
+            </div>
+
+            <form action="#" class="flexCenter bordersearch">
+                <div class=" backgris iconsize flexCenter"><i class="fas fa-map-marker-alt"></i></div>
+                <input class="search flexCenter borderno paddingsearch" type="search" placeholder="Marseille, France">
+                <div class="backbleu flexCenter buttonsearch">
+                    <span class="mobilenone">Rechercher</span>
+                    <span class="desktopnone"><i class="fas fa-search"></i></span>
+
+                </div>
+            </form>
+
+            <!-- FILTRES -->
+
+
+            <div class="mobileFiltreWrap filtre margefiltre">
+
+                <div class="margefiltretitre">
+                    <h3>Filtres</h3>
+                </div>
+
+                <div class="flexAround">
+
+                    <div class="mobeco filtretxticn flexBetween">
+                        <i class="fas fa-money-bill-wave fa-lg filtreicn flexCenter"></i>
+                        <div class="filtretxt flexCenter">Économique</div>
+                    </div>
+
+                    <div class="mobfam filtretxticn flexBetween">
+                        <i class="fas fa-child filtreicn fa-lg flexCenter"></i>
+                        <div class="filtretxt flexCenter">Familiale</div>
+
+                    </div>
+                </div>
+
+                <div class="mobileFiltreWrap flexAround">
+
+                    <div class="filtretxticn flexBetween">
+                        <i class="fas fa-heart filtreicn fa-lg flexCenter"></i>
+                        <div class="filtretxt flexCenter">Romantique</div>
+
+                    </div>
+
+                    <div class="filtretxticn flexBetween">
+                        <i class="fas fa-dog filtreicn fa-lg flexCenter"></i>
+                        <div class="filtretxt flexCenter">Animaux autorisés</div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="info">
+                <div class="iconinfo flexCenter"><i class="fas fa-info fa-xs colorbleu"></i></div>
+                <p class="mobilelarge">Plus de 500 logements sont disponibles dans cette ville</p>
+
+
+            </div>
+
+        </section>
+
+
 
         <!-- HEBERGEMENT -->
 
@@ -112,7 +113,8 @@
                 <h2 class="margintitreheber">Hébergements à Marseille</h2>
                 <div class="bloc1 flexBetween">
                     <div class="cubeheber">
-                        <div class="imgheber1"></div>
+                        <img src="./images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" class="imgheber"
+                            alt="Auberge Cannebière">
                         <div class="cubedetailheber ">
                             <h3>Auberge la Cannebière</h3>
                             <p>Nuit à partir de 25€</p>
@@ -126,7 +128,8 @@
                         </div>
                     </div>
                     <div class="cubeheber">
-                        <div class="imgheber2"></div>
+                        <img src="./images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg" class="imgheber"
+                            alt="Auberge Cannebière">
                         <div class="cubedetailheber ">
                             <h3>Hôtel du port</h3>
                             <p>Nuit à partir de 52€</p>
@@ -140,7 +143,8 @@
                         </div>
                     </div>
                     <div class="cubeheber">
-                        <div class="imgheber3"></div>
+                        <img src="./images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg" class="imgheber"
+                            alt="Auberge Cannebière">
                         <div class="cubedetailheber ">
                             <h3>Hôtel Les mouettes</h3>
                             <p>Nuit à partir de 76€</p>
@@ -156,7 +160,8 @@
                 </div>
                 <div class="bloc2 flexBetween">
                     <div class="cubeheber">
-                        <div class="imgheber4"></div>
+                        <img src="./images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg" class="imgheber"
+                            alt="Auberge Cannebière">
                         <div class="cubedetailheber ">
                             <h3>Hôtel de la mer</h3>
                             <p>Nuit à partir de 46€</p>
@@ -170,7 +175,8 @@
                         </div>
                     </div>
                     <div class="cubeheber">
-                        <div class="imgheber5"></div>
+                        <img src="./images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" class="imgheber"
+                            alt="Auberge Cannebière">
                         <div class="cubedetailheber ">
                             <h3>Auberge Le Panier</h3>
                             <p>Nuit à partir de 23€</p>
@@ -184,7 +190,8 @@
                         </div>
                     </div>
                     <div class="cubeheber">
-                        <div class="imgheber6"></div>
+                        <img src="./images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg"
+                            class="imgheber" alt="Auberge Cannebière">
                         <div class="cubedetailheber ">
                             <h3>Hôtel Chez Amina</h3>
                             <p>Nuit à partir de 96€</p>
@@ -213,7 +220,8 @@
                 </div>
                 <div class="flexColumnAround">
                     <div class="blocpop12 flexCenter cubepop">
-                        <div class="imgpopu1"></div>
+                        <img src="./images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg"
+                            class="imgpopu" alt="Auberge Cannebière">
                         <div class="cubedetailpop">
                             <div class="ecritlarge paddingpop">
                                 <h3>Hôtel Le soleil du <br>matin</h3>
@@ -229,7 +237,8 @@
                         </div>
                     </div>
                     <div class="blocpop12 flexCenter cubepop">
-                        <div class="imgpopu2"></div>
+                        <img src="./images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg" class="imgpopu"
+                            alt="Auberge Cannebière">
                         <div class="cubedetailpop">
                             <div class="ecritlarge paddingpop">
                                 <h3>Au coeur de l'eau <br> Chambres d'hôtes</h3>
@@ -245,7 +254,8 @@
                         </div>
                     </div>
                     <div class="flexCenter cubepop">
-                        <div class="imgpopu3"></div>
+                        <img src="./images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg"
+                            class="imgpopu" alt="Auberge Cannebière">
                         <div class="cubedetailpop">
                             <div class="ecritlarge paddingpop">
                                 <h3>Hôtel Tout bleu et <br> Blanc</h3>
@@ -270,40 +280,46 @@
             <h2 class="mobiletitreapara">Activités à Marseille</h2>
             <div class="blocactivite flexBetween">
                 <div class="cubeactivite flexColumnCenter">
-                    <div class="imgactivite1"></div>
+                    <img src="./images/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg"
+                        class="imgactivite14" alt="Auberge Cannebière">
                     <div class="titreactivite titrehautactivite">
                         <h3>Vieux port</h3>
                     </div>
                 </div>
                 <div class="blocactivite2356 flexColumnBetween">
                     <div class="cubeactiviteimg2356 flexColumnCenter">
-                        <div class="imgactivite2"></div>
+                        <img src="./images/activites/3_medium/paul-hermann-QFTrLdQIRhI-unsplash.jpg"
+                            class="imgactivite26" alt="Auberge Cannebière">
                         <div class="titreactivite titrehautactivite">
                             <h3>Fort do Pomèguos</h3>
                         </div>
                     </div>
                     <div class="cubeactiviteimg2356 flexColumnCenter">
-                        <div class="imgactivite3"></div>
+                        <img src="./images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg"
+                            class="imgactivite35" alt="Auberge Cannebière">
                         <div class="titreactivite titrehautactivite">
                             <h3>Îles du Frioul</h3>
                         </div>
                     </div>
                 </div>
                 <div class="cubeactivite flexColumnCenter">
-                    <div class="imgactivite4"></div>
+                    <img src="./images/activites/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg"
+                        class="imgactivite14" alt="Auberge Cannebière">
                     <div class="titreactivite titrehautactivite">
                         <h3>Parc National des Calanques</h3>
                     </div>
                 </div>
                 <div class="blocactivite2356 flexColumnBetween">
                     <div class="cubeactiviteimg2356 flexColumnCenter">
-                        <div class="imgactivite5"></div>
+                        <img src="./images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg"
+                            class="imgactivite35" alt="Auberge Cannebière">
                         <div class="titreactivite titrehautactivite">
                             <h3>Notre-Dame-De-La-Garde</h3>
                         </div>
                     </div>
                     <div class="cubeactiviteimg2356 flexColumnCenter">
-                        <div class="imgactivite6"></div>
+                        <img src="./images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg" class="imgactivite26"
+                            alt="Auberge Cannebière">
                         <div class="titreactivite titrehautactivite">
                             <h3>Parc Longchamp</h3>
                         </div>
@@ -311,7 +327,7 @@
                 </div>
             </div>
         </section>
-    </nav>
+    </div>
 
     <!-- FOOTER -->
 
