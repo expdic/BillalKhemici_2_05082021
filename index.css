@@ -367,9 +367,11 @@ body {
 
 .imgheber {
     background-size: cover;
+    background-position: center;
     width: 100%;
     height: 150px;
     border-radius: 15px 15px 0 0;
+    object-fit: cover;
 }
 
 #aff:hover {
@@ -433,6 +435,7 @@ body {
     width: 35%;
     height: 200px;
     border-radius: 15px 0 0 15px;
+    object-fit: cover;
 }
 
 .margintitrepopu {
@@ -492,28 +495,24 @@ body {
 }
 
 .imgactivite14 {
-    background-position: center;
     width: 100%;
     height: 530px;
     border-radius: 15px 15px 0 0;
+    object-fit: cover;
 }
 
 .imgactivite26 {
-    background-image: url("./images/activites/3_medium/paul-hermann-QFTrLdQIRhI-unsplash.jpg");
-    background-size: cover;
-    background-position: center;
     width: 100%;
     height: 250px;
     border-radius: 15px 15px 0 0;
+    object-fit: cover;
 }
 
 .imgactivite35 {
-    background-image: url("./images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg");
-    background-size: cover;
-    background-position: center;
     width: 100%;
     height: 150px;
     border-radius: 15px 15px 0 0;
+    object-fit: cover;
 }
 
 .cubeactivite:hover {
