@@ -350,7 +350,6 @@ a {
 }
 
 .cubeheber:hover {
-    cursor: pointer;
     transform: scale(1.05);
     color: #0065fc;
 
@@ -423,7 +422,6 @@ a {
 }
 
 .cubepop:hover {
-    cursor: pointer;
     transform: scale(1.05);
     color: #0065fc;
 
@@ -521,14 +519,12 @@ a {
 }
 
 .cubeactivite:hover {
-    cursor: pointer;
     transform: scale(1.03);
     color: #0065fc;
 
 }
 
 .cubeactiviteimg2356:hover {
-    cursor: pointer;
     transform: scale(1.03);
     color: #0065fc;
 
